@@ -3,8 +3,8 @@ HOW IT WORKS:
 The script performs the following steps:
 
 1) Upload the 3 "train" txt files, into their correspondingn R variables 
->2) Renames the columns, 2 files only contains 1 columns, and 1 file (xtrain) the columns are replaced using a vector created from another txt file 
->3) Assign the levels to the "ytrain" file (this also responds to point 4). 4) Assign the levels to "subject"file 5) Put together the 3 files, in order to create one Data Sate for "Train" 6) Add and extra column named "Train" to the full DS, in order to identify the source (EXTRA POINTS ? =D) 7) Repeat steps 1-6 but for "Test" files 8) Create one single file with the full data sets from "Train" and "Test" 9) Creates an internal variable named "Extract1" which includes only the columns that has a "mean" or "std" in the tittle. 10) Using temporal "melted" variables, create a csv file called "FinalTidyData", which contains all the means and Standard deviations for all the variables (columns) for each subject and activity.
+2) Renames the columns, 2 files only contains 1 columns, and 1 file (xtrain) the columns are replaced using a vector created from another txt file 
+3) Assign the levels to the "ytrain" file (this also responds to point 4). 4) Assign the levels to "subject"file 5) Put together the 3 files, in order to create one Data Sate for "Train" 6) Add and extra column named "Train" to the full DS, in order to identify the source (EXTRA POINTS ? =D) 7) Repeat steps 1-6 but for "Test" files 8) Create one single file with the full data sets from "Train" and "Test" 9) Creates an internal variable named "Extract1" which includes only the columns that has a "mean" or "std" in the tittle. 10) Using temporal "melted" variables, create a csv file called "FinalTidyData", which contains all the means and Standard deviations for all the variables (columns) for each subject and activity.
 
 The following variables are used in the script:
 
